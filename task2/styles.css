@@ -57,3 +57,12 @@ body {
   text-align: center;
   padding: 10px;
 }
+
+@media (max-width: 600px) {
+  .sidebar,
+  .content {
+    float: none;
+    width: auto;
+    margin: 20px 2%;
+  }
+}
